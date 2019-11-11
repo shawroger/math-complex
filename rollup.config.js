@@ -1,23 +1,23 @@
 import resolve from 'rollup-plugin-node-resolve';
-import typescript from 'rollup-plugin-typescript';
-//import babel from 'rollup-plugin-babel';
+//import typescript from 'rollup-plugin-typescript';
+import babel from 'rollup-plugin-babel';
 
 
 export default {
-  input: 'src/main.ts',
+  input: 'src/index.js',
   output: {
-  	name: 'app',
+  	name: 'siphan',
     file: 'dist/bundle.js',
     format: 'umd',
   },
   plugins: [
     resolve(),
-    typescript({
+    /*typescript({
       exclude: 'node_modules/**',
       typescript: require('typescript'),
-    }),
-    /*babel({
+    }),*/
+    babel({
       exclude: 'node_modules/**'
-    })*/
+    })
   ]
 };

@@ -1,6 +1,14 @@
 {
-  "name": "rollup-ts-init",
-  "version": "1.0.0",
+  "name": "siphan",
+  "version": "0.0.3",
+  "description": "a light javascript tool to encrypt the data",
+  "main": "src/index.js",
+  "homepage": "http://service.shawroger.com/rexine/",
+  "keywords": [
+    "rexine"
+  ],
+  "author": "shawroger",
+  "license": "ISC",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
@@ -14,8 +22,6 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript": "^1.0.1",
-    "rollup-watch": "^4.3.1",
-    "tslib": "^1.10.0",
-    "typescript": "^3.6.4"
+    "rollup-watch": "^4.3.1"
   }
 }
