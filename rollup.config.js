@@ -1,10 +1,9 @@
 import resolve from 'rollup-plugin-node-resolve';
-//import typescript from 'rollup-plugin-typescript';
 import babel from 'rollup-plugin-babel';
 
 
 export default {
-  input: 'src/index.js',
+  input: 'lib/index.js',
   output: {
   	name: 'siphan',
     file: 'dist/bundle.js',
@@ -12,10 +11,6 @@ export default {
   },
   plugins: [
     resolve(),
-    /*typescript({
-      exclude: 'node_modules/**',
-      typescript: require('typescript'),
-    }),*/
     babel({
       exclude: 'node_modules/**'
     })
