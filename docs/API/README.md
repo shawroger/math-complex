@@ -34,7 +34,7 @@ Complex本身就已经包含了`math-complex`的所有导出对象，不过一�
 参见 [define](/API/complex-number.html#define)。
 
 ### Complex.fromAngle
-参见 [ComplexNumber.define](/API/complex-number.html#fromAngle)。
+参见 [fromAngle](/API/complex-number.html#fromAngle)。
 
 ### Complex.imagine
 参见 [imagine](/API/complex-reflect.html#imagine)。
