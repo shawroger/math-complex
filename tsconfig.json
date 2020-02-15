@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "experimentalDecorators": true,
         "allowUnreachableCode": true,
         "strict": true,
         "noImplicitAny": false,

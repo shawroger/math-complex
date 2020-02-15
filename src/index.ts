@@ -1,29 +1,58 @@
-import {
-    newKey,
-    encrypt,
-    encryptUTF8,
-    decrypt,
-    decryptUTF8,
-    encryptAs,
-    encryptUTF8As
-} from './app/export';
+import { define, ComplexNumber } from "./core";
 
-export default {
-    newKey,
-    encrypt,
-    encryptUTF8,
-    decrypt,
-    decryptUTF8,
-    encryptAs,
-    encryptUTF8As
-}
+import {
+	ComplexReflect,
+	add,
+	tryRealize,
+	mult,
+	isComplex,
+	toComplex,
+	realize,
+	imagine,
+	abs,
+	absSquare,
+	contrary,
+	random,
+	pow,
+	fromAngle
+} from "./reflect";
+
+const Complex = {
+	define,
+	fromAngle,
+	Number: ComplexNumber,
+	Reflect: ComplexReflect,
+	add,
+	tryRealize,
+	mult,
+	isComplex,
+	toComplex,
+	realize,
+	imagine,
+	abs,
+	absSquare,
+	contrary,
+	random,
+	pow
+};
+
+export default Complex;
 
 export {
-    newKey,
-    encrypt,
-    encryptUTF8,
-    decrypt,
-    decryptUTF8,
-    encryptAs,
-    encryptUTF8As
-}
+	define,
+	ComplexNumber,
+	ComplexReflect,
+	add,
+	tryRealize,
+	mult,
+	isComplex,
+	toComplex,
+	realize,
+	imagine,
+	abs,
+	absSquare,
+	contrary,
+	random,
+	pow,
+	fromAngle
+};

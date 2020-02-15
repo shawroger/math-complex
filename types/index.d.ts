@@ -1,0 +1,22 @@
+import { define, ComplexNumber } from "./core";
+import { ComplexReflect, add, tryRealize, mult, isComplex, toComplex, realize, imagine, abs, absSquare, contrary, random, pow, fromAngle } from "./reflect";
+declare const Complex: {
+    define: typeof ComplexNumber.define;
+    fromAngle: typeof ComplexReflect.fromAngle;
+    Number: typeof ComplexNumber;
+    Reflect: typeof ComplexReflect;
+    add: typeof ComplexReflect.add;
+    tryRealize: typeof ComplexReflect.tryRealize;
+    mult: typeof ComplexReflect.mult;
+    isComplex: typeof ComplexReflect.isComplex;
+    toComplex: typeof ComplexReflect.toComplex;
+    realize: typeof ComplexReflect.realize;
+    imagine: typeof ComplexReflect.imagine;
+    abs: typeof ComplexReflect.abs;
+    absSquare: typeof ComplexReflect.absSquare;
+    contrary: typeof ComplexReflect.contrary;
+    random: typeof ComplexReflect.random;
+    pow: typeof ComplexReflect.pow;
+};
+export default Complex;
+export { define, ComplexNumber, ComplexReflect, add, tryRealize, mult, isComplex, toComplex, realize, imagine, abs, absSquare, contrary, random, pow, fromAngle };

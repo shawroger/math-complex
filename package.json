@@ -1,24 +1,34 @@
 {
-    "name": "siphan",
-    "version": "1.0.0",
-    "description": "a light javascript tool to encrypt the data",
-    "main": "./lib/index.js",
-    "types": "./lib/index.d.ts",
-    "homepage": "http://siphan.shawroger.com/",
-    "keywords": ["siphan"],
-    "author": "shawroger",
-    "license": "ISC",
-    "scripts": {
-        "build": "rollup -c",
-        "dev": "rollup -c -w"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.6.4",
-        "@babel/preset-env": "^7.6.3",
-        "rollup": "^1.23.1",
-        "rollup-plugin-babel": "^4.3.3",
-        "rollup-plugin-node-resolve": "^5.2.0",
-        "rollup-plugin-typescript": "^1.0.1",
-        "rollup-watch": "^4.3.1"
-    }
+	"name": "math-complex",
+	"version": "0.2.5",
+	"description": "a light tool to use complex number with javascript",
+	"main": "lib/index.js",
+	"typings": "types/index.d.ts",
+	"unpkg": "./dist/math-complex.js",
+	"keywords": [
+		"mathComplex",
+		"math",
+		"complex"
+	],
+	"author": "shawroger",
+	"license": "ISC",
+	"files": [
+		"src",
+        "dist",
+        "lib",
+		"types"
+	],
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.4",
+		"@babel/preset-env": "^7.6.3",
+		"rollup": "^1.23.1",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-typescript": "^1.0.1",
+		"rollup-watch": "^4.3.1"
+	}
 }
